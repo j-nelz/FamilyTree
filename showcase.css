@@ -1,3 +1,4 @@
+/*General layout styling for all pages*/
 body {
   background-color: #664433;
   font-family: verdana;
@@ -6,7 +7,6 @@ body {
   border:0;
 }
 
-/*Box Model Example, Outline example*/
 header {
   background-color: #abab89;
   color: #000000;
@@ -25,7 +25,6 @@ nav {
   height: 100%;
 }
 
-/*Max-width example*/
 article {
   background-color: #212121;
   color: #ffffff;
@@ -58,7 +57,7 @@ footer {
   clear: left;
 }
 
-/*Navigation Bar*/
+/*Navigation Bar Styling*/
 nav ul {
   list-style-type: none;
   margin:0;
@@ -92,6 +91,7 @@ nav a:hover {
   text-decoration:none;
 }
 
+/*Additional Header Styling*/
 #toptitle {
   font-family:"Arial Black", Gadget, sans-serif; 
 }
@@ -100,6 +100,7 @@ nav a:hover {
   font-family:"Comic Sans MS", cursive, sans-serif;
 }
 
+/*Styling for main tree page*/
 div.tree {
     position: relative;
     border: 3px solid #73AD21;
@@ -121,7 +122,11 @@ div.picframe: hover {
 	border: 4px solid #eeeeee;
 	opacity: 0.7;
 }
-
+/*	
+	Styling used for pictures on main page
+	Each picture is in the background with the 
+	picframe above cropping out unwanted space
+*/
 #grandpa1 {
     left: 80px;
 	bottom: 240px; 
@@ -184,6 +189,7 @@ div.picframe: hover {
 	background-repeat: no-repeat;
 }
 
+/*Styling for picture on each separate profile page*/
 .profpic {
 	width: 240px;
 	float: left;
@@ -191,6 +197,7 @@ div.picframe: hover {
 	margin: 20px;
 }
 
+/*Description styling for pictures on main tree page*/
 div.desc {
 	position: absolute;
 	top:167px;
@@ -209,3 +216,22 @@ div.picframe:hover .desc{
 	visibility: visible;
 }
 
+/*Button Used on Course website*/
+.topbutton a:link, .topbutton a:visited {
+  background-color:green;
+  color: white;
+  text-decoration:none;
+  padding: 10px;
+  border: 3px solid white;
+  margin: 20px;
+  font-weight:bold;
+
+}
+
+.topbutton a:hover {
+  background-color:white;
+  color: green;
+  border:3px solid green;
+  text-decoration:none;
+  font-weight:bold;
+}
